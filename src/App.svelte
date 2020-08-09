@@ -9,25 +9,9 @@
 
 </script>
 
-<div class="container">
-	<button on:click|preventDefault={clickHandler}>click me</button>
-</div>
-
+<button on:click|preventDefault={clickHandler}>click me</button>
 
 <style type="text/scss">
-
-	.container {
-		position: absolute;
-		top: 0;
-		left: 0;
-		right: 0;
-		bottom: 0;
-		overflow: hidden;
-		display: flex;
-		justify-content: center;
-		align-items: center;
-		background-image: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-	}
 
 	button {
 		height: 40px;
@@ -40,6 +24,7 @@
 		cursor: pointer;
 		transition: box-shadow 0.2s ease-in-out;
 		user-select: none;
+		align-self: center;
 		
 		&:hover {
 			box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
