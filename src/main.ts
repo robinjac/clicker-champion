@@ -1,6 +1,6 @@
-import App from './App.svelte';
+import Button from './Button.svelte';
 
-const app = new App({
+const app = new Button({
 	target: document.getElementById('app'),
 });
 
