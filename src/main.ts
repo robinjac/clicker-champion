@@ -1,6 +1,6 @@
-import Button from './Button.svelte';
+import Canvas from './components/Canvas.svelte';
 
-const app = new Button({
+const app = new Canvas({
 	target: document.getElementById('app'),
 });
 
